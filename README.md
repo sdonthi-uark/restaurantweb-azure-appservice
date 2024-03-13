@@ -4,13 +4,13 @@ This guide outlines the steps to deploy the Restaurant Web application using Azu
 
 ## Getting Started
 
-For Fllow the tutorial on deploying a Python and PostgreSQL app in Azure App Services provided by Microsoft:
+First you can follow the tutorial on deploying a Python and PostgreSQL app in Azure App Services provided by Microsoft:
 
 [Tutorial: Build a Python and PostgreSQL app in Azure App Services](https://learn.microsoft.com/en-us/azure/app-service/tutorial-python-postgresql-app?tabs=django%2Cwindows&pivots=azure-portal)
 
-**Note:** Instead of using the GitHub project suggested in the tutorial, we will utilize our own project located at: [https://github.com/molin6/restaurantweb-azure-appservice](https://github.com/molin6/restaurantweb-azure-appservice).
+**Note:** Instead of using the GitHub project suggested in the tutorial, we will utilize our own project located at: [https://github.com/ISYS53333/restaurantweb-azure-appservice](https://github.com/ISYS53333/restaurantweb-azure-appservice), you should FORK this repository and then use your own repository.  This will allow you to see how automated changes are pushed to the app services code when changes are made to the code base.
 
-Please begin directly from **Step 1** of the tutorial, applying the following changes and additions as you proceed. Also feel free to use your own nameing inst Step 2:
+Please begin directly from **Step 1** of the tutorial, applying the following changes and additions as you proceed. Also feel free to use your own naming in Step 2:
 
 ### Changes and Additions
 
@@ -20,3 +20,4 @@ Please begin directly from **Step 1** of the tutorial, applying the following ch
 
   ```bash
   python manage.py loaddata menu_data.json
+  ```
