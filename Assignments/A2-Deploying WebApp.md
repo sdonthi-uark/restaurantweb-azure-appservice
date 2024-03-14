@@ -15,12 +15,10 @@ You will need to have `git` installed on your local machine.  You can download i
 
 You will also need to have an Azure account.  If you do not have one, you can sign up for a free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/).
 
-
 ## Deliverables
-1. A screenshot of the Azure App Service dashboard showing the deployed web app.
-2. A screenshot of the webpage running, be sure to include the URL in the screenshot.
-3. A screenshot of the Resource Visualizer showing the resource group and the resources created by the deployment.
-4. Answer the questions in the assignment on the submission screen.
+1. A screenshot of the webpage running, be sure to include the URL in the screenshot.
+2. A screenshot of the Resource Visualizer showing the resource group and the resources created by the deployment.
+3. Answer the questions in the assignment on the submission screen.
 
 ## Changes and Additions
 Keep in mind the following steps as you proceed through the tutorial:
@@ -60,5 +58,3 @@ There are several locations in the tutorial where you will be told to check a pa
 
 ### Stage 7 - Clean up resources
 - Make sure to take a screenshot of your web page running and the resource visualizer before you delete the resources.
-
-
