@@ -10,14 +10,38 @@ This tutorial will guide you through the process of deploying a Django web app t
 
 Please begin directly from **Step 1** of the tutorial, applying the following changes and additions as you proceed.  The instructions prior to Step 1 are for running the app locally.  You are welcome to do so in order to test the application, but it is not required.
 
+## Before you begin
+You will need to have `git` installed on your local machine.  You can download it from [https://git-scm.com/downloads](https://git-scm.com/downloads).  
+
+You will also need to have an Azure account.  If you do not have one, you can sign up for a free account at [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/).
+
+
 ## Deliverables
 1. A screenshot of the Azure App Service dashboard showing the deployed web app.
 2. A screenshot of the webpage running, be sure to include the URL in the screenshot.
 3. A screenshot of the Resource Visualizer showing the resource group and the resources created by the deployment.
 4. Answer the questions in the assignment on the submission screen.
 
-### Changes and Additions
+## Changes and Additions
 Keep in mind the following steps as you proceed through the tutorial:
+
+**Before you begin**: The very first step is to fork the repository [https://github.com/ISYS53333/restaurantweb-azure-appservice]. When we see to 'Fork' a repository we are telling you to make a copy ofthe repository into your own account. Forking a repository allows you to freely experiment with changes without affecting the original project.  You can fork the repository by clicking the "Fork" button in the upper-right corner of the repository page.
+
+There are several locations in the tutorial where you will be told to check a particular box or select a particular service.  You will be asked about a few of these decisions in the assignment questions, so be sure to take note of the choices you make and research why you are being asked to select the default or a different option.
+
+### Stage 1 - Create App Service and PostgreSQL database
+- You will need to clone the repository you forked to your local machine. The instructions are provided in the tutorial, but you will need to use the URL of your forked repository.  This will be the name of the repository in your account with a .git extension.  For example, when I forked this repository it created a repository in my account called `restaurantweb-azure-appservice` and the URL is `https://github.com/MLDERES/restaurantweb-azure-appservice.git`
+- A common pattern is to name your resource group something descriptive of the resources it will contain.  For example, you could name your resource group `restaurantweb-rg`. (Note the -rg suffix is a common pattern for resource groups, but not required.)
+- When providing a name for your app service, you should use a name that is unique to Azure.  You can use your name or some other unique identifier to ensure it is globally unique (that is, no one else in the world has ever named their app).  For example, you could use `restaurantweb-mlderes` as the name of your app service.
+
+### Stage 2 - Verify connection settings
+- NOTE: As of this writing `Application Settings` referred in the tutorial have moved and are now in the `Environment Variables` section of the Configuration blade.  Wherever you see `Application Settings` in the tutorial, you should look for `Environment Variables` instead.
+- This is a good point to take a screenshot of the Resource Visualizer.  You can access the Resource Visualizer by clicking on the "Resource Visualizer" link in the left-hand menu of the Azure Portal.  This will show you all the resources in your resource group and how they are connected.
+
+### Stage 3 - Deploy sample code
+- If you have already forked this repository, then you can skip the step to clone the repository.
+- Again, in step 3 of the tutorial it uses the term `app settings` you should read as `environment variables`.
+
 
 - **Step 4 (Configure Authentication):** Choose **Basic Authentication** instead of User-Assigned Identity under Authentication Types.
 

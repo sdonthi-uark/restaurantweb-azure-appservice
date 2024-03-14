@@ -1,23 +1,29 @@
-# Deploying Restaurant Web Using Azure App Services
+# Restaurant Web Application
+This project is a web application for restaurant management and browsing. It is an example of deploying a Python (Django) web app with PostgresSQL in Azure.
 
-This guide outlines the steps to deploy the Restaurant Web application using Azure App Services, with specific customizations to the standard process.
+The actual assignment can be found in the [Assignments/A2-Deploying WebApp.md](Assignments/A2-Deploying%20WebApp.md) file.
 
-## Getting Started
+# License
 
-First you can follow the tutorial on deploying a Python and PostgreSQL app in Azure App Services provided by Microsoft:
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0).
 
-[Tutorial: Build a Python and PostgreSQL app in Azure App Services](https://learn.microsoft.com/en-us/azure/app-service/tutorial-python-postgresql-app?tabs=django%2Cwindows&pivots=azure-portal)
+## You are free to:
 
-**Note:** Instead of using the GitHub project suggested in the tutorial, we will utilize our own project located at: [https://github.com/ISYS53333/restaurantweb-azure-appservice](https://github.com/ISYS53333/restaurantweb-azure-appservice), you should FORK this repository and then use your own repository.  This will allow you to see how automated changes are pushed to the app services code when changes are made to the code base.
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
 
-Please begin directly from **Step 1** of the tutorial, applying the following changes and additions as you proceed. Also feel free to use your own naming in Step 2:
+The licensor cannot revoke these freedoms as long as you follow the license terms.
 
-### Changes and Additions
+## Under the following terms:
 
-- **Step 4 (Configure Authentication):** Choose **Basic Authentication** instead of User-Assigned Identity under Authentication Types.
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-- **After completing Step 4:** Execute an additional command to populate the database with initial data:
+## Notices:
 
-  ```bash
-  python manage.py loaddata menu_data.json
-  ```
+You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+
+No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+
+For the full license text and further information, please visit [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
