@@ -41,13 +41,24 @@ There are several locations in the tutorial where you will be told to check a pa
 ### Stage 3 - Deploy sample code
 - If you have already forked this repository, then you can skip the step to clone the repository.
 - Again, in step 3 of the tutorial it uses the term `app settings` you should read as `environment variables`.
+- When asked to `Configure Authentication`: Choose **Basic Authentication** instead of User-Assigned Identity under Authentication Types.
 
-
-- **Step 4 (Configure Authentication):** Choose **Basic Authentication** instead of User-Assigned Identity under Authentication Types.
-
-- **After completing Step 4:** Execute an additional command to populate the database with initial data:
+### Stage 4 - Generate the database schema
+- The first time you SSH into your app service it may take 60-90 seconds to connect.  Be patient and try again if it fails the first time.
+- After completing the two steps in stage 4 of the tutorial, you will need to execute an additional command to populate the database with initial data:
 
   ```bash
   python manage.py loaddata menu_data.json
   ```
+
+### Stage 5 - Browse to the web app
+- You will need to take a screenshot of the webpage running.  Be sure to include the URL in the screenshot.
+
+### Stage 6 - Stream Diagnostics Logs
+- There is nothing to do here if you already completed this in the tutorial.
+- What you might do at this point is to make a change to the web application and push the change to your forked repository.  This will trigger a deployment of the new code to your app service.  You can then check the logs to see the deployment process in action. For instance, look for line which describes the restaurant in the `restaurant/templatesa/restaurant/home.html` file and change it to something else.  Then commit and push the change to your forked repository.  You can then check the logs to see the automatic deployment process in action.
+
+### Stage 7 - Clean up resources
+- Make sure to take a screenshot of your web page running and the resource visualizer before you delete the resources.
+
 
