@@ -4,7 +4,7 @@ In this assignment we'll be deploying a web app with a PostGresSQL database to A
 For this assignment, you will first work through the following tutorial to deploy a Django web app to Azure:
 - [Tutorial: Deploy a Django web app with PostgreSQL in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/tutorial-python-postgresql-app?tabs=django%2Cwindows&pivots=azure-portal)
 
-This tutorial will guide you through the process of deploying a Django web app to Azure App Service and connecting it to an Azure Database for PostgreSQL.  Once you have completed the tutorial, you will use the following repository [https://github.com/ISYS53333/restaurantweb-azure-appservice](https://github.com/ISYS53333/restaurantweb-azure-appservice) to deploy the Restaurant Web application to Azure App Services.
+This tutorial will guide you through the process of deploying a Django web app to Azure App Service and connecting it to an Azure Database for PostgreSQL.  Once you have completed the tutorial, you will use the following repository [https://github.com/ISYS53403/restaurantweb-azure-appservice](https://github.com/ISYS53403/restaurantweb-azure-appservice) to deploy the Restaurant Web application to Azure App Services.
 
 *Be sure to fork this repository to your own GitHub account and then use your own repository to deploy the app to Azure.  This will allow you to see how automated changes are pushed to the app services code when changes are made to the code base.*
 
