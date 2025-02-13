@@ -23,7 +23,7 @@ You will also need to have an Azure account.  If you do not have one, you can si
 ## Changes and Additions
 Keep in mind the following steps as you proceed through the tutorial:
 
-**Before you begin**: The very first step is to fork the repository [https://github.com/ISYS53333/restaurantweb-azure-appservice]. When we see to 'Fork' a repository we are telling you to make a copy ofthe repository into your own account. Forking a repository allows you to freely experiment with changes without affecting the original project.  You can fork the repository by clicking the "Fork" button in the upper-right corner of the repository page.
+**Before you begin**: The very first step is to fork the repository [https://github.com/ISYS53403/restaurantweb-azure-appservice](https://github.com/ISYS53403/restaurantweb-azure-appservice). When we see to 'Fork' a repository we are telling you to make a copy ofthe repository into your own account. Forking a repository allows you to freely experiment with changes without affecting the original project.  You can fork the repository by clicking the "Fork" button in the upper-right corner of the repository page.
 
 There are several locations in the tutorial where you will be told to check a particular box or select a particular service.  You will be asked about a few of these decisions in the assignment questions, so be sure to take note of the choices you make and research why you are being asked to select the default or a different option.
 
